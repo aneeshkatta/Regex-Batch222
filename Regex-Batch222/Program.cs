@@ -10,7 +10,7 @@ namespace Regex_Batch222
     {
         public static void Main()
         {//Test password 8 chars
-            string inputPassword = "Pass@word";
+            string inputPassword = "Pass@worD";
             bool result=RegexValidationCheck.RegexValidate(inputPassword);
             if (result = true)
             { 

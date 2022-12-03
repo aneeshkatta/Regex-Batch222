@@ -9,7 +9,7 @@ namespace Regex_Batch222
 {
     internal class RegexValidationCheck
     {
-        public static string password = "^[A-Z]{1}[A-Za-z].{7,}$";
+        public static string password = "^?=.+([A-Z]{1})[A-Z]{1}[A-Za-z].{7,}$";
         public static bool RegexValidate(string inputPassword)
         { 
             return Regex.IsMatch(inputPassword, password);
