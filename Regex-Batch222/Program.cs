@@ -10,8 +10,8 @@ namespace Regex_Batch222
     {
         public static void Main()
         {
-            string inputFirstName = "Raj";
-            bool result=RegexValidationCheck.RegexValidate(inputFirstName);
+            string inputLastName = "Kumar";
+            bool result=RegexValidationCheck.RegexValidate(inputLastName);
             Console.WriteLine("\n{0}", result);
         }
     }
