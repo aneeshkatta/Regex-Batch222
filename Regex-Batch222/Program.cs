@@ -9,9 +9,9 @@ namespace Regex_Batch222
     internal class Program
     {
         public static void Main()
-        {
-            string inputLastName = "Kumar";
-            bool result=RegexValidationCheck.RegexValidate(inputLastName);
+        {//Test mail:"abc.xyz@bl.co.in";
+            string inputMail = "abc@bl.co";//test for checkig mandatory parts only
+            bool result=RegexValidationCheck.RegexValidate(inputMail);
             Console.WriteLine("\n{0}", result);
         }
     }
