@@ -9,10 +9,15 @@ namespace Regex_Batch222
     internal class Program
     {
         public static void Main()
-        {//Test Mobile Format:91 9919819801 &:91-9919819801
-            string inputMobileNo = "91 9919819801";
-            bool result=RegexValidationCheck.RegexValidate(inputMobileNo);
-            Console.WriteLine("\n{0}", result);
+        {//Test password 8 chars
+            string inputPassword = "Pass@word";
+            bool result=RegexValidationCheck.RegexValidate(inputPassword);
+            if (result = true)
+            { 
+                Console.WriteLine("\n Valid Regex input entered"); 
+            }
+            else
+                Console.WriteLine("\n Invalid Regex input entered");
         }
     }
 }
